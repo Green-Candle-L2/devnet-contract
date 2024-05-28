@@ -1,0 +1,16 @@
+{
+  "name": "hardhat-project",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.4"
+  },
+  "scripts": {
+    "local": "npx hardhat node",
+    "test": "REPORT_GAS=true npx hardhat test",
+    "sepolia": "npx hardhat deploy --network sepolia",
+    "deploynow": "npx hardhat deploy --network mainnet"
+},
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2"
+  }
+}
