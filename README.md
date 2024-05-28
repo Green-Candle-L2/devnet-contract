@@ -11,3 +11,5 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat ignition deploy ./ignition/modules/Lock.js
 ```
+Contract Deploy Arbi Sepolia : https://sepolia.arbiscan.io/address/0xb2f201923825b18e841ff5791ee11d3d294887fa
+Contract Deploy Sepolia : Soon
